@@ -2,14 +2,14 @@
 *@author Wickers Mathieu LPI
 */
 
-/** Multiplie le paramètre a avec b */
+/** Multiplies a with b */
 function mult(a){
 	return function(b){
 		return a*b;
 	}
 }
 
-/** Soustrait le paramètre a à b */
+/** Susbtract b to a */
 function sub(a) {
 	return function(b) {
 		return a-b;
@@ -22,7 +22,7 @@ sub(2)(2); // 0
 sub(2)(4); // -2
 
 
-/** Additionne n paramètres */
+/** Adds n parameters */
 function adder(){
 	var args = Array.prototype.slice.call(arguments);
 	return function(v){
