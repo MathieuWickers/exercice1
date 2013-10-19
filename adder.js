@@ -1,3 +1,7 @@
+/**
+*@author Wickers Mathieu LPI
+*/
+
 /** Multiplie le paramètre a avec b */
 function mult(a){
 	return function(b){
